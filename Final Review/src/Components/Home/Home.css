@@ -1,0 +1,152 @@
+.app__header {
+  background-color:  #0C0C0C;
+}
+
+.app__header-h1 {
+  font-family: 'Cormorant Upright', serif;
+  color: #DCCA87;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 117px;
+  font-size: 64px;
+}
+
+.app__header-img img {
+  width: 80%;
+}
+
+.app__navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 1rem 2rem;
+    background-color:  #0C0C0C;
+  }
+  
+  .app__navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .app__navbar-logo img {
+    width: 150px;
+  }
+  .app__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    list-style: none;
+  }
+  
+  .app__navbar-links li {
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  
+  .app__navbar-links li:hover {
+    color: #545454;
+  }
+  
+  
+  .app__navbar-login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .app__navbar-login a {
+    margin: 0 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s ease;
+  }
+  
+  .app__navbar-login a:hover {
+    color: #545454;
+  }
+  
+  .app__navbar-login div {
+    width: 1px;
+    height: 30px;
+    background-color: #545454;
+  }
+  
+  .app__navbar-smallscreen {
+    display: none;
+  }
+  
+  .app__navbar-smallscreen_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background:  #0C0C0C;
+    transition: 0.5s ease;
+  
+    flex-direction: column;
+    z-index: 5;
+  }
+  
+  .app__navbar-smallscreen_overlay .overlay__close {
+    font-size: 27px;
+    color: #DCCA87;
+    cursor: pointer;
+  
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .app__navbar-smallscreen_links {
+    list-style: none;
+  }
+  
+  .app__navbar-smallscreen_links li {
+    margin: 2rem;
+    cursor: pointer;
+    color: #DCCA87;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Cormorant Upright', serif;
+  }
+  
+  .app__navbar-smallscreen_links li:hover {
+    color: #FFFFFF;
+  }
+  
+  @media screen and (max-width: 2000px) {
+    .app__navbar-logo img {
+      width: 210px;
+    }
+  }
+  
+  @media screen and (max-width: 1150px) {
+    .app__navbar-links {
+      display: none;
+    }
+  
+    .app__navbar-smallscreen {
+      display: flex;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .app__navbar {
+      padding: 1rem;
+    }
+  
+    .app__navbar-login {
+      display: none;
+    }
+  
+    .app__navbar-logo img {
+      width: 110px;
+    }
+  }
+  

@@ -1,0 +1,12 @@
+.navbar{
+    height: 9vh;
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Aligns items to the left and right */
+    align-items: center; 
+}
+.head{
+    font-size: 23px;
+    color: rgb(224, 224, 224);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

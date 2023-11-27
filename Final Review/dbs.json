@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Magi",
+      "email": "admin@gmail.com",
+      "mob": "7667792123",
+      "pass": "12345"
+    },
+    {
+      "name": "Kaneska",
+      "email": "mkaneska@gmail.com",
+      "mob": "12345678",
+      "pass": "123",
+      "id": 2
+    }
+  ]
+}

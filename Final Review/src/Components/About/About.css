@@ -1,0 +1,15 @@
+.app__chef-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 29em;
+}
+.app__wrapper_info{
+    margin-left: 3em;
+}
+
+.app__chef-sign {
+  width: 100%;
+  margin-top: 3rem;
+}
